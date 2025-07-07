@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etnodim</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/slyle.css">
+</head>
+
+<body>
+    <h1 class="visually-hidden">Etnodim</h1>
+    <a id="top"></a>
+
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <h2 class="visually-hidden">menu</h2>
+                <ul class="header__menu">
+                    <li class="header__menu-item"> <a href="catalog.html">
+                            <p class="header__menu-active">Каталог</p>
+                        </a></li>
+                    <li class="header__menu-item"><a href="sale.html">Знижки</a></li>
+                    <li class="header__menu-item"> <a href="blog.html">Блог</a></li>
+                    <li class="header__menu-item"> <a href="about.html">Про нас</a></li>
+                </ul>
+            </nav>
+            <a href="/" class="header__logo"><img src="./img/etnodim-logo.png" alt="logo"></a>
+            <div class="header__right">
+                <ul class="header__menu">
+                    <li class="header__menu-item">
+                        <div class="header__dropdown">
+                            <button class="button"> UA<span class="arrow"></span> </button>
+                            <ul class="dropdown">
+                                <li><a href="#">UA</a></li>
+                                <li><a href="#">RU</a></li>
+                                <li><a href="#">EN</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header__menu-item">
+                        <div class="header__dropdown">
+                            <button class="button">
+                                <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#hryvnia"></use>
+                                </svg>
+                                <span class="arrow"></span>
+                            </button>
+                    </li>
+                    <li class="header__menu-item"> <a href="tel:380978889292">+38 097 888 92 92</a></li>
+                    <li class="header__menu-item"> <button class="button"><svg class="icon">
+                                <use xlink:href="./img/sprite.svg#search"></use>
+                            </svg></button> </li>
+                    <li class="header__menu-item">
+                        <button class="button">
+                            <svg class="icon">
+                                <use xlink:href="./img/sprite.svg#cart"></use>
+                            </svg> <span class="quantity">1</span>
+                        </button>
+                    </li>
+            </div>
+        </div>
+    </header>
+    <header class="header__mobile">
+        <div class="header__mobile-active">
+            <div class="header__mobile-active-top">
+                <button class="button"><svg class="icon">
+                        <use xlink:href="./img/sprite.svg#close-menu"></use>
+                    </svg></button>
+                <a href="home.html" class="header__mobile-active-logo"><img src="/img/etnodim-logo.png" alt="logo"></a>
+            </div>
+
+            <ul class="header__mobile-active-menu">
+                <li> <a href="catalog.html" class="header__menu-active">Каталог</a>
+                    <button class="button-active"><svg class="icon-arrow">
+                            <use xlink:href="./img/sprite.svg#arrow_long"></use>
+                        </svg></button></button>
+                </li>
+                <li> <a href="sale.html">Знижки</a> </li>
+                <li> <a href="blog.html">Блог</a> </li>
+                <li> <a href="about.html">Про нас</a></li>
+            </ul>
+            <div class="header__mobile-active-bottom">
+                <ul class="header__mobile-active-language">
+                    <li> <button class="button"> <span>UA</span> </button> </li>
+                    <li> <button class="button"> <span>RU</span> </button> </li>
+                    <li> <button class="button"> <span>EN</span> </button> </li>
+                </ul>
+
+                <ul class="header__mobile-active-currency">
+                    <li> <button class="button"><svg class="icon-active">
+                                <use xlink:href="./img/sprite.svg#hryvnia"></use>
+                            </svg></button> </li>
+                    <li> <button class="button"> <svg class="icon-active">
+                                <use xlink:href="./img/sprite.svg#euro"></use>
+                            </svg> </button> </li>
+                    <li> <button class="button"><svg class="icon-active">
+                                <use xlink:href="./img/sprite.svg#dollar"></use>
+                            </svg></button> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-mobile">
+            <button class="button"><svg class="icon">
+                    <use xlink:href="./img/sprite.svg#burger"></use>
+                </svg></button>
+            <div class="header__logo">
+                <a href="home.html"><img src="/img/etnodim-logo.png" alt="logo"></a>
+            </div>
+            <ul class="header__mobile-rigth">
+                <li><button class="button"><svg class="icon">
+                            <use xlink:href="./img/sprite.svg#search"></use>
+                        </svg></button></li>
+                <li class="header__menu-item"><button class="button"> <svg class="icon">
+                            <use xlink:href="./img/sprite.svg#cart"></use>
+                        </svg></button> <span class="quantity">1</span></li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <nav class="main__breadcrumb">
+                <ul class="main__menu">
+                    <li class="main__menu-item"><a href="home.html">Головна</a></li>
+                    <li class="main__menu-item before"><a href="women.html">Жінкам</a></li>
+                    <li class="main__menu-item before">Жіночі вишиванки</li>
+            </nav>
+            <div class="main__wrapper">
+                <div class="main__sidebar">
+                    <div class="main__checkbox">
+                        <h4>Розмір<span class="arrow"></span> </h4>
+                        <ul class="main__checkbox-menu">
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">32 | XXS (53)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">34 | XS (60)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">36 | S (60)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">38 | M (60)</label>
+                            </li>
+                            <li class="main__checkbox-wrapper">
+                                <input type="checkbox" />
+                                <label for="checkbox">40 | L (60)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">42 | XL (58)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">46 | XXL (13)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">48 | XХXL (4)</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__checkbox">
+                        <h4>Колір <span class="arrow"></span> </h4>
+                        <ul class="main__checkbox-menu">
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">білий</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">чорний</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">чорний</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">бежевий</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">зелений</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">синій</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__checkbox">
+                        <h4>Сезон <span class="arrow"></span> </h4>
+                        <ul class="main__checkbox-menu">
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">Easy collection (3)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">Усі сезони (46)</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__checkbox">
+                        <h4>Тканина<span class="arrow"></span> </h4>
+                        <ul class="main__checkbox-menu">
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">Льон (60)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">Сатин (1)</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="main__checkbox">
+                        <h4>Рукав<span class="arrow"></span> </h4>
+                        <ul class="main__checkbox-menu">
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">Довгий рукав (49)</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" />
+                                <label for="checkbox">3/4 рукав (11)</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main__content">
+                    <div class="main__content-top">
+                        <div class="main__content-wrapper">
+                            <button class="main__content-button"> <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#view-4"></use>
+                                </svg></button>
+                            <button class="main__content-button"> <svg class="icon">
+                                    <use xlink:href="./img/sprite.svg#view-9"></use>
+                                </svg></button>
+                            <p>Сортувати за: <button class="main__content-button">новинки <span class="arrow"></span>
+                                </button></p>
+                        </div>
+                        <h2 class="main__title">Жіночі вишиванки</h2>
+                    </div>
+                    <div class="main__content-top-mobile">
+                        <h2 class="main__title">Жіночі вишиванки</h2>
+                        <div class="main__content-mobile-wrapper">
+                            <button class="main__content-button">Фільтри <span class="arrow"></span></button>
+                            <p>Сортувати за: <button class="main__content-button">новинки <span
+                                        class="arrow"></span></button></p>
+                            <div class="main__checkbox-active">
+                                <div class="main__checkbox-active-item">
+                                    <h4>Розмір<span class="arrow"></span> </h4>
+                                    <ul class="main__checkbox-active-menu">
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">32 | XXS (53)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">34 | XS (60)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">36 | S (60)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">38 | M (60)</label>
+                                        </li>
+                                        <li class="main__checkbox-wrapper">
+                                            <input type="checkbox" />
+                                            <label for="checkbox">40 | L (60)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">42 | XL (58)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">46 | XXL (13)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">48 | XХXL (4)</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main__checkbox-active-item">
+                                    <h4>Колір <span class="arrow"></span></h4>
+                                    <ul class="main__checkbox-active-menu">
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">білий</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">чорний</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">чорний</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">бежевий</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">зелений</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">синій</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main__checkbox-active-item">
+                                    <h4>Сезон <span class="arrow"></span></h4>
+                                    <ul class="main__checkbox-active-menu">
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">Easy collection (3)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">Усі сезони (46)</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main__checkbox-active-item">
+                                    <h4>Тканина <span class="arrow"></span></h4>
+                                    <ul class="main__checkbox-active-menu">
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">Льон (60)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">Сатин (1)</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main__checkbox-active-item">
+                                    <h4>Рукав <span class="arrow"></span></h4>
+                                    <ul class="main__checkbox-active-menu">
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">Довгий рукав (49)</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" />
+                                            <label for="checkbox">3/4 рукав (11)</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main__content-block">
+                        <div class="main__content-block-card">
+                            <div class="main__img-conteiner">
+                                <img class="main__img active" src="./img/main/image 1.png" alt="photo">
+                            </div>
+                            <p class="main__text">Вишиванка з рослинним орнаментом Lito</p>
+                            <p class="main__text-bold">2 800 грн.</p>
+                        </div>
+                        <div class="main__content-block-card">
+                            <img class="main__img" src="./img/main/image 2.png" alt="photo">
+                            <p class="main__text">Вишиванка блакитного кольору з рослинним орнаментом Fialka</p>
+                            <p class="main__text-bold">3 400 грн.</p>
+                        </div>
+                        <div class="main__content-block-card">
+                            <img class="main__img" src="./img/main/image 3.png" alt="photo">
+                            <p class="main__text">Лляна вишиванка з геометричним орнаментом Nezalezhni</p>
+                            <p class="main__text-bold">4 200 грн.</p>
+                        </div>
+                        <div class="main__content-block-card">
+                            <img class="main__img" src="./img/main/image 4.png" alt="photo">
+                            <p class="main__text">Вишиванка з рослинним орнаментом Kashtan</p>
+                            <p class="main__text-bold">3 800 грн.</p>
+                        </div>
+                        <div class="main__content-block-card">
+                            <img class="main__img" src="./img/main/image 5.png" alt="photo">
+                            <p class="main__text">Легка блузка вільного крою з орнаментом Indi</p>
+                            <p class="main__text-bold">3 800 грн.</p>
+                        </div>
+                        <div class="main__content-block-card">
+                            <img class="main__img" src="./img/main/image 6.png" alt="photo">
+                            <p class="main__text">Біла вишиванка вільного крою Svitanok</p>
+                            <p class="main__text-bold">2 980 грн.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="main__bottom">
+                <button class="main__button-more">Показати більше <svg class="icon-more">
+                        <use xlink:href="./img/sprite.svg#arrow_more"></use>
+                    </svg></button>
+                <div class="main__page">
+                    <ul class="main__menu-page">
+                        <li class="main__item-page">1</li>
+                        <li class="main__item-page">2</li>
+                        <li class="main__item-page">2</li>
+                        <li class="main__item-page">3</li>
+                        <li class="main__item-page">...</li>
+                        <li class="main__item-page">6</li>
+                    </ul>
+                    <button class="main__button-page">Наступна</button>
+                </div>
+            </div>
+            <a href="#top" class="main__back-to-top"> <svg class="icon-arrow">
+                    <use xlink:href="./img/sprite.svg#arrow_long"></use>
+                </svg></a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__inner-container">
+                <div class="footer__logo">
+                    <a href="logo">
+                        <img class="img-logo" src="/img//etnodim-logo.png" alt="logo"></a>
+                </div>
+                <div class="footer__wrapper">
+                    <div class="footer__items">
+                        <div class=list1>
+                            <ul class="footer__list">
+                                <li class="menu-item"> <a href="about">Про нас</a></li>
+                                <li class="menu-item"> <a href="team">Команда</a></li>
+                                <li class="menu-item"><a href="blog">Блог</a></li>
+                                <li class="menu-item">
+                                    <p>Drabyna</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class=list2>
+                            <ul class="footer__list">
+                                <li class="menu-item"> <a href="info">Цікава інформація</a></li>
+                                <li class="menu-item"> <a href="career">Вакансії</a></li>
+                                <li class="menu-item"> <a href="delivery">Доставка та оплата</a></li>
+                                <li class="menu-item">
+                                    <p>Етнодім Маніфест</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__contacts">
+                        <p class="text-line">Контакти</p>
+                        <ul class="footer__contacts-list">
+                            <li class="list-item"><a href="phone">+38 097 888 92 92</a></li>
+                            <li class="list-item"><a href="map">Україна, м. Київ, вул. Верхній Вал 58/28</a></li>
+                            <li class="list-item">
+                                <div class="schedule">
+                                    <p>пн-пт 10:00-20:00</p>
+                                    <p>сб-нд 11:00-19:00</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__social-items">
+                        <p class="text-line">Соціальні мережі</p>
+                        <ul class="social-links">
+                            <li class="social-links-item">
+                                <a href="http://facebook.com/etnodim"><svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#facebook"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="http://youtube.com/etnodim"><svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#youtube"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="http://gmail.com/etnodim"><svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#mail"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="http://pinterest.com/etnodim"><svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#pinterest"></use>
+                                    </svg></a>
+                            </li>
+                            <li class="social-links-item">
+                                <a href="http://instagram.com/etnodim"><svg class="icon">
+                                        <use xlink:href="./img/sprite.svg#instagram"></use>
+                                    </svg></a>
+                            </li>
+                        </ul>
+                        <p>© «Етнодім» 2009-2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer__mobile">
+
+        <div class="footer__container">
+
+            <div class="footer__inner-container">
+
+                <div class="footer__logo">
+                    <a href="logo">
+                        <img class="img-logo" src="./img/etnodim-logo.png" alt="logo"></a>
+                </div>
+
+                <div class="footer__wrapper-mobile">
+
+                    <div class="footer__items">
+
+                        <div class="footer__items-menu">
+                            <div class=list1>
+                                <ul class="footer__list">
+                                    <li class="menu-item"> <a href="about">Про нас</a></li>
+                                    <li class="menu-item"> <a href="team">Команда</a></li>
+                                    <li class="menu-item"><a href="blog">Блог</a></li>
+                                    <li class="menu-item">
+                                        <p>Drabyna</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class=list2>
+                                <ul class="footer__list">
+                                    <li class="menu-item"> <a href="info">Цікава інформація</a></li>
+                                    <li class="menu-item"> <a href="career">Вакансії</a></li>
+                                    <li class="menu-item"> <a href="delivery">Доставка та оплата</a></li>
+                                    <li class="menu-item">
+                                        <p>Етнодім Маніфест</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer__social-items">
+                            <p class="text-line">Соціальні мережі</p>
+                            <ul class="social-links">
+                                <li class="social-links-item">
+                                    <a href="http://facebook.com/etnodim"><svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#facebook"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="social-links-item">
+                                    <a href="http://youtube.com/etnodim"><svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#youtube"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="social-links-item">
+                                    <a href="http://gmail.com/etnodim"><svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#mail"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="social-links-item">
+                                    <a href="http://pinterest.com/etnodim"><svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#pinterest"></use>
+                                        </svg></a>
+                                </li>
+                                <li class="social-links-item">
+                                    <a href="http://instagram.com/etnodim"><svg class="icon">
+                                            <use xlink:href="./img/sprite.svg#instagram"></use>
+                                        </svg></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__contacts">
+                        <p class="text-line">Контакти</p>
+                        <ul class="footer__contacts-list">
+                            <li class="list-item"><a href="phone">+38 097 888 92 92</a></li>
+                            <li class="list-item"><a href="map">Україна, м. Київ, вул. Верхній Вал 58/28</a></li>
+                            <li class="list-item">
+                                <div class="schedule">
+                                    <p>пн-пт 10:00-20:00</p>
+                                    <p>сб-нд 11:00-19:00</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p>© «Етнодім» 2009-2021</p>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
